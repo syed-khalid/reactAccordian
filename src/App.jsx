@@ -9,7 +9,7 @@ function App() {
 	const [selected, setSelected] = useState(null);
 
 	const toggle = (i) => {
-		if (selected == i) {
+		if (selected === i) {
 			return setSelected(null);
 		}
 
